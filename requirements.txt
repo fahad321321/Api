@@ -1,0 +1,8 @@
+torch
+flask
+pillow
+realesrgan
+basicsr
+numpy
+gdown
+flask-cors
