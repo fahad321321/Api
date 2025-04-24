@@ -103,7 +103,7 @@ def upload_image():
         print("[INFO] Calling enhance_image() function")
         enhance_image(input_path, output_path)
 
-        image_url = f"http://127.0.0.1:5000/output/{output_filename}"
+        image_url = f"https://api-0qjw.onrender.com/output/{output_filename}"
         print(f"[INFO] Returning output URL: {image_url}")
 
         return jsonify({"status": "success", "enhanced_image_url": image_url})
